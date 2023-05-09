@@ -23,6 +23,10 @@ h1, h2, h3, h4, h5, h6 {
     margin: 0;
 }
 
+img {
+    display: block;
+}
+
 
 .list {
     list-style: none;
@@ -40,6 +44,7 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    padding: 24px 0 24px;
 }
 
 .link:hover,
@@ -56,6 +61,7 @@ h1, h2, h3, h4, h5, h6 {
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    margin-right: 76px;
 }
 
 .studio {
@@ -165,14 +171,40 @@ h1, h2, h3, h4, h5, h6 {
 
 .container {
     width: 1158px;
-    padding-left: 5px;
-    padding-right: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
     margin-left: auto;
     margin-right: auto;
+}
+
+.header {
+    border-bottom: 1px solid var(--accent);
+}
+
+.header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.c-header {
+    display: flex;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
 }
 
 .nav-list {
     display: flex;
     gap: 40px;
     justify-content: center;
+    padding: 24px 0;
+}
+
+.adress-list {
+    display: flex;
+    gap: 40px;
+    align-items: center;
 }
