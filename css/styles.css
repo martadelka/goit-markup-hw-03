@@ -655,7 +655,7 @@ img {
 }
 
 .glob-port-photo-li {
-    width: calc((100%-48px)/3);
+    width: calc((100% - 48px)/3);
 }
 
 .app-character {
